@@ -1,0 +1,5 @@
+#episodes
+  .episodes-list
+    h1.title Episodios
+    - @episodes.each do |episode|
+      = render 'pages/episode_list_item', episode: episode

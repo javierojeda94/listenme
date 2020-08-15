@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="es-MX">
   <head>
-    <title>Listenme</title>
+    <title>LISTENME</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
@@ -15,10 +15,11 @@
     <header>
       <%= link_to 'LISTENME', root_path, class: 'logo' %>
       <nav>
-        <%= link_to 'Episodios', nil, class: 'link' %>
-        <%= link_to 'Contacto', nil, class: 'link' %>
+        <%= link_to 'Episodios', episodes_path, class: 'link' %>
       </nav>
     </header>
-    <%= yield %>
+    <div class="content">
+      <%= yield %>
+    </div>
   </body>
 </html>
