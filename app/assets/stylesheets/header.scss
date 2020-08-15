@@ -1,0 +1,28 @@
+header {
+  background: black;
+  color: white;
+  width: calc(100vw - 100px);
+  height: 75px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+  .logo {
+    font-size: 34px;
+    font-weight: 100;
+    color: inherit;
+  }
+  nav {
+    right: 50px;
+    position: absolute;
+    a.link {
+      font-size: 17px;
+      color: inherit;
+      margin-left: 20px;
+    }
+  }
+}

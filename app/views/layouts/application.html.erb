@@ -10,6 +10,13 @@
   </head>
 
   <body>
+    <header>
+      <%= link_to 'LISTENME', root_path, class: 'logo' %>
+      <nav>
+        <%= link_to 'Episodios', nil, class: 'link' %>
+        <%= link_to 'Contacto', nil, class: 'link' %>
+      </nav>
+    </header>
     <%= yield %>
   </body>
 </html>
