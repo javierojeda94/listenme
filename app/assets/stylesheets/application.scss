@@ -10,17 +10,8 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
+ *= require normalize
+ *= require fonts
+ *= require header
  *= require_self
  */
-
-html, body {
-  margin: 0;
-  padding: 0;
-  font-family: Quicksand, sans-serif;
-}
-
-a {
-  text-decoration: none;
-  color: black;
-}
